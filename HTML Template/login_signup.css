@@ -254,11 +254,10 @@ input {
 }
 
 
-@media screen and (max-width:400px){
+@media screen and (max-width:441px){
   .container{
     min-height:400px;
   }
-
   h1{
     font-size: 1.5rem;;
   }
@@ -277,4 +276,21 @@ input {
   button{
     padding: 10px 10px;
   }
+}
+
+@media screen and (max-width:350px){
+
+    h1{
+        font-size: 1rem;
+    }
+    .social-container{
+        width: 120%;
+    }
+    .social-container a{
+        font-size: 0.6rem;
+        height: 20px;
+        width: 20x;
+        margin-left: 0;
+        margin-right: 0;
+      }
 }
