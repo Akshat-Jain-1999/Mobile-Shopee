@@ -33,7 +33,7 @@
         <div class="font-rale font-size-14">
             <a href="index.php" class="px-3 text-dark"> Home</a>
             <a href="HTML Template/login_signup.html" class="px-3 border-right border-left text-dark">Login</a>
-            <a href="cart.php" class="px-3 border-right text-dark">Whishlist</a>
+            <a href="cart.php" class="px-3 border-right text-dark">Wishlist</a>
         </div>
     </div>
 

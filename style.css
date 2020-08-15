@@ -73,6 +73,7 @@ html{
 #top-sale .owl-carousel .item .product img:hover {
     transform: scale(1.1);
 }
+
 #top-sale .owl-carousel .owl-nav button {
     position: absolute;
     top: 30%;
