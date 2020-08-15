@@ -31,7 +31,8 @@
     <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
         <p class="font-rale font-size-12 text-black-50 m-0">Jordan Calderon 430-985 Eleifend St. Duluth Washington 92611 (427) 930-5255</p>
         <div class="font-rale font-size-14">
-            <a href="#" class="px-3 border-right border-left text-dark">Login</a>
+            <a href="index.php" class="px-3 text-dark"> Home</a>
+            <a href="HTML Template/login_signup.html" class="px-3 border-right border-left text-dark">Login</a>
             <a href="cart.php" class="px-3 border-right text-dark">Whishlist</a>
         </div>
     </div>
@@ -45,23 +46,23 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav m-auto font-rubik">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">On Sale</a>
+                    <a class="nav-link" href="#top-sale">Top Sale</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Category</a>
+                    <a class="nav-link" href="#special-price">Category</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Products <i class="fas fa-chevron-down"></i></a>
+                    <a class="nav-link" href="#banner_adds">Products <i class="fas fa-chevron-down"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="#blogs">Blog</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Category <i class="fas fa-chevron-down"></i></a>
-                </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#special-price">Category <i class="fas fa-chevron-down"></i></a>
+                </li> -->
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="#">Coming Soon</a>
-                </li>
+                </li> -->
             </ul>
             <form action="#" class="font-size-14 font-rale">
                 <a href="cart.php" class="py-2 rounded-pill color-primary-bg">

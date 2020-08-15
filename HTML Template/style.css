@@ -6,6 +6,10 @@ button, button:focus {
   box-shadow: none !important;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* typography classes */
 .font-baloo {
   font-family: "Baloo Thambi 2", cursive;
