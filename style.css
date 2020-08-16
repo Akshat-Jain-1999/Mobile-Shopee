@@ -105,5 +105,11 @@ html{
     margin-top: 1rem;
 }
 
+@media screen and (max-width: 728px){
+    #special-price .grid .grid-item{
+            margin-left: 4rem;
+        }
+  }
+
 /*# sourceMappingURL=style.css.map */
 
