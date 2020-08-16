@@ -28,9 +28,9 @@
 
 <!-- start #header -->
 <header id="header">
-    <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+    <div class="strip d-flex justify-content-between pl-4 py-1 bg-light">
         <p class="font-rale font-size-12 text-black-50 m-0">Jordan Calderon 430-985 Eleifend St. Duluth Washington 92611 (427) 930-5255</p>
-        <div class="font-rale font-size-14">
+        <div class="font-rale ml-5 font-size-14">
             <a href="index.php" class="px-3 text-dark"> Home</a>
             <a href="HTML Template/login_signup.html" class="px-3 border-right border-left text-dark">Login</a>
             <a href="cart.php" class="px-3 border-right text-dark">Wishlist</a>
@@ -39,12 +39,12 @@
 
     <!-- Primary Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
-        <a class="navbar-brand" href="#">Mobile Shopee</a>
+        <a class="navbar-brand" href="index.php">Mobile Shopee</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav m-auto font-rubik">
+            <ul class="navbar-nav ml-auto mr-5 font-rubik">
                 <li class="nav-item active">
                     <a class="nav-link" href="#top-sale">Top Sale</a>
                 </li>
@@ -52,7 +52,7 @@
                     <a class="nav-link" href="#special-price">Category</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#banner_adds">Products <i class="fas fa-chevron-down"></i></a>
+                    <a class="nav-link" href="#banner_adds">Products</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#blogs">Blog</a>
