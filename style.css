@@ -9,6 +9,7 @@ html{
     scroll-behavior: smooth;
 }
 
+
 /* typography classes */
 .font-baloo {
     font-family: "Baloo Thambi 2", cursive;
@@ -102,6 +103,14 @@ html{
 #special-price .grid .grid-item {
     margin-right: 1.2rem;
     margin-top: 1rem;
+    /* margin-left: 4rem; */
+}
+
+@media screen and (max-width:728px){
+    .grid .grid-item{
+        margin-left: 4rem;
+    }
 }
 
 /*# sourceMappingURL=style.css.map */
+
