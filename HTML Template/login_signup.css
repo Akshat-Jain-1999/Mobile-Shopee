@@ -102,6 +102,12 @@ input {
 	width: 100%;
 }
 
+input:focus{
+	border: none;
+	outline:none;
+  	border:none;
+}
+
 .container {
 	background-color: #fff;
 	border-radius: 10px;

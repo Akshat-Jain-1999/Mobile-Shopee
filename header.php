@@ -38,24 +38,24 @@
     </div>
 
     <!-- Primary Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+    <nav class="navbar navbar-expand-lg py-3 navbar-dark color-second-bg">
         <a class="navbar-brand" href="index.php">Mobile Shopee</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse text-center font-weight-bold navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto mr-5 font-rubik">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#top-sale">Top Sale</a>
+                    <a class="nav-link" href="index.php#top-sale">Top Sale</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#special-price">Category</a>
+                    <a class="nav-link" href="index.php#special-price">Category</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#banner_adds">Products</a>
+                    <a class="nav-link" href="index.php#banner_adds">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#blogs">Blog</a>
+                    <a class="nav-link" href="index.php#blogs">Blog</a>
                 </li>
                 <!-- <li class="nav-item">
                     <a class="nav-link" href="#special-price">Category <i class="fas fa-chevron-down"></i></a>
