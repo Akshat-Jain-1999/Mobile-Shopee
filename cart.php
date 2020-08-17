@@ -16,7 +16,7 @@ include ('header.php');
 
 
     /*  include top sale section */
-        include ('Template/_new-phones.php');
+        include ('Template/_top-sale.php');
     /*  include top sale section */
 
 ?>
