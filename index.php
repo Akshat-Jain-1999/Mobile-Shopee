@@ -26,6 +26,10 @@
         include ('Template/_new-phones.php');
     /*  include new phones section  */
 
+    /*  include accessories section  */
+        include ('Template/_access.php');
+    /*  include accessories section  */
+
     /*  include blog area  */
          include ('Template/_blogs.php');
     /*  include blog area  */

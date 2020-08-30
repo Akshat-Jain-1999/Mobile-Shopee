@@ -12,6 +12,10 @@ require ('database/Cart.php');
 //require Wish Class
 require ('database/wish.php');
 
+//require Accessory Class
+require ('database/Accessory.php');
+
+
 
 // DBController object
 $db = new DBController();
@@ -22,4 +26,10 @@ $product_shuffle = $product->getData();
 
 // Cart object
 $Cart = new Cart($db );
+
+// Wish Object
 $Wish = new Wish($db );
+
+//Accessory Object
+$accessories = new Accessory($db);
+$accessories_shuffle = $accessories->getData();

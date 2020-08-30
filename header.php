@@ -55,6 +55,9 @@
                     <a class="nav-link" href="index.php#banner_adds">Products</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="index.php#accessories">Accessories</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="index.php#blogs">Blog</a>
                 </li>
                 <!-- <li class="nav-item">
