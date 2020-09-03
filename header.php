@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php 
+session_start()
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -29,10 +31,30 @@
 <!-- start #header -->
 <header id="header">
     <div class="strip d-flex justify-content-between pl-4 py-1 bg-light">
-        <p class="font-rale font-size-12 text-black-50 m-0">Jordan Calderon 430-985 Eleifend St. Duluth Washington 92611 (427) 930-5255</p>
+        <p class="font-rale font-size-12 text-black-50 m-0">
+		<?php 
+			if(!isset($_SESSION['customer_email']))
+			{
+			echo "Welcome Guest";
+			}
+			else
+			{
+			echo "Wecome: " .$_SESSION['customer_email'];
+			}
+			?>
+		</p>
         <div class="font-rale ml-5 font-size-14">
             <a href="index.php" class="px-3 text-dark"> Home</a>
-            <a href="HTML Template/login_signup.html" class="px-3 border-right border-left text-dark">Login</a>
+			<?php 
+			if(!isset($_SESSION['customer_email']))
+			{
+			echo '<a href="login_signup.html" class="px-3 border-right border-left text-dark">'."Login".'</a>';
+			}
+			else
+			{
+			echo '<a href="logout.php" class="px-3 border-right text-dark">'."Logout".'</a>';
+			}
+			?>
             <a href="cart.php" class="px-3 border-right text-dark">Wishlist</a>
         </div>
     </div>
