@@ -21,7 +21,8 @@ if($num == 1)
 	}
 else
 {	
-	$reg = "insert into user(name,email,password) values ('$name','$email','$password')";
+	//$reg = "insert into user(name,email,password) values ('$name','$email','$password')";
+	$reg = "insert into user(name,email,password) values ('$name','$email',aes_encrypt('$password','key'))";
 	mysqli_query($con,$reg);
 	echo "Registration Done";
 }    

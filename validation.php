@@ -8,7 +8,8 @@ mysqli_select_db($con,'shopee');
 $email = $_POST['email'];
 $password = $_POST['password'];
 
-$s = "select * from user where email = '$email' and password = '$password'";
+//$s = "select * from user where email = '$email' and password = '$password'";
+$s = "select * from user where email = '$email' and aes_decrypt(password,'key') = '$password'";
 $result = mysqli_query($con, $s);
 
 $num = mysqli_num_rows($result);
