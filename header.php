@@ -31,7 +31,7 @@ session_start()
 <!-- start #header -->
 <header id="header">
     <div class="strip d-flex justify-content-between pl-4 py-1 bg-light">
-        <p class="font-rale font-size-12 text-black-50 m-0">
+        <p class="font-rale font-size-16 font-weight-bold m-0">
 		<?php 
 			if(!isset($_SESSION['customer_email']))
 			{
@@ -43,7 +43,7 @@ session_start()
 			}
 			?>
 		</p>
-        <div class="font-rale ml-5 font-size-14">
+        <div class="font-rale ml-5 font-size-16 font-weight-bold">
             <a href="index.php" class="px-3 text-dark"> Home</a>
 			<?php 
 			if(!isset($_SESSION['customer_email']))
